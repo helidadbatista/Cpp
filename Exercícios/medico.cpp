@@ -4,6 +4,8 @@ Aluna: Hélida Dias Batista Xerfan
 */
 #include<iostream>
 #include<string>
+#include<locale>
+#include <windows.h>
 using namespace std;
 
 class Medico {
@@ -47,6 +49,10 @@ class Paciente {
 };
 
 int main () {
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    
     
     Paciente paciente("Hélida", 31);
     paciente.marcarConsulta("15/06/2023", "14:00", "Rodrigo");
@@ -57,6 +63,6 @@ int main () {
 
 
 
-
+    return 0;
 
 }

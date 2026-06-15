@@ -1,8 +1,13 @@
 #include<iostream>
 #include<vector>
+#include <windows.h>
 using namespace std;
 
 int main () {
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    
     vector<int> valores;
 
     valores.push_back(10);
