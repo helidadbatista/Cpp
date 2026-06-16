@@ -53,7 +53,7 @@ int main () {
 
     conta.depositar(500.0);
     conta.sacar(200.0);
-    conta.sacar(1500.0); // Tentativa de saque maior que o saldo
+    conta.sacar(2000.0); // Tentativa de saque maior que o saldo
 
     return 0;
 }
