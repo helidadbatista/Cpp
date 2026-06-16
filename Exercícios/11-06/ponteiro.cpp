@@ -1,3 +1,7 @@
+/*Aula 11/06/2026
+Professora: Erika Dilly
+Aluna: Hélida Dias Batista Xerfan
+*/
 #include<iostream>
 #include <windows.h>
 using namespace std;
